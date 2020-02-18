@@ -1,0 +1,71 @@
+.container {
+		    max-width: 1200px!important;
+		    margin: 0 auto;
+		}
+		.anhdau{
+		    margin-right: -10px;
+		    margin-left: -10px;
+		}
+		.danh-sach{
+		    display: flex;
+		    flex-wrap: wrap;
+		    justify-content: flex-start;
+		    margin-bottom: 10px;
+		}
+		.story-item {
+		    text-align: center;
+		    position: relative;
+		    margin-bottom: 50px;
+		}
+		.story-item img{
+			width: 170px;
+		    height: 240px;
+		}
+		.story-item .story-cover {
+		    object-fit: cover;
+		    border-radius: 6px;
+		    border: 1px solid #ccc;
+		    width:170px;
+		    height:240px;
+		}
+		ul {
+			list-style: none;
+		}
+		li {
+		    flex: 0 0 calc((100% / 6) - 10px);
+		}
+		/* img{
+			max-width: 100%;
+		    vertical-align: middle;
+		    border: 0;
+		} */
+		.main-menu{
+			background-color:#f18121;
+			margin-bottom:	20px;
+		}
+		.thanhcongcu{
+		    position: relative;
+		    display: flex;
+		    -webkit-box-align: center;
+		    align-items: center;
+		    padding: .5rem 1rem;
+		    height: 70px;
+		}
+		.nen-thanhcongcu{
+			background-color:#f8f99a!important
+		}
+		.trang-chu{
+		    display: inline-block;
+		    padding-top: .3125rem;
+		    padding-bottom: .3125rem;
+		    margin-right: 1rem;
+		    font-size: 1.25rem;
+		    line-height: inherit;
+		    white-space: nowrap;
+		    color: red;
+		}
+		.trang-chu:focus,
+		.trang-chu:hover{
+			text-decoration:none
+			}
+		.trang-chu:hover{color:#fff}

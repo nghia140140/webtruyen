@@ -1,0 +1,28 @@
+@CHARSET "ISO-8859-1";
+table{
+			border-collapse: collapse;
+			width:100%;
+			margin-top: 20px;
+		}
+		tr, td{
+			line-height: 25px;
+			border:3px solid black;
+			padding: 5px;
+			text-align : center;
+		}
+		th{
+			background-color: #004d00;
+			color: #fff;
+			line-height: 30px;
+			border: 3px solid black;
+			text-align : center;
+		}
+		.insert{
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		.insert2:focus,
+		.insert2:hover{
+			text-decoration:none
+		}
+		.insert2:hover{color:#c0c}
